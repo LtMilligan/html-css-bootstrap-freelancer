@@ -3,6 +3,41 @@
     border: 1px solid black;
 }
 
+#avatar {
+    width: 200px;
+}
+
+.portfolio-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lines:after, .lines::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.line-w:after, .line-w::before {
+    background-color: white;
+}
+
+.line-dblue:after, .line-dblue::before {
+    background-color: #2C3E50;
+}
+
+.lines:after {
+    margin-left: 10px;
+}
+
+.lines:before {
+    margin-right: 10px;
+}
+
+/* BACKGROUND COLOR */
+
 .bg-grey {
     background-color: #2C3E50;
 }
@@ -13,4 +48,18 @@
 
 .bg-lightgrey {
     background-color: #3A546D;
+}
+
+/* TEXT COLOR */
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-dblue {
+    color: #2C3E50;
 }
