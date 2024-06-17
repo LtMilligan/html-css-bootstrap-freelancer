@@ -36,6 +36,22 @@
     margin-right: 10px;
 }
 
+.underline-input {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.box-social {
+    width: 30px;
+    height: 30px;
+}
+
+footer .box-social {
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 /* BACKGROUND COLOR */
 
 .bg-grey {
@@ -62,4 +78,24 @@
 
 .c-dblue {
     color: #2C3E50;
+}
+
+.c-aquagreen {
+    color: #1ABC9C;
+}
+
+/* FONT */
+
+.f-size-30 {
+    font-size: 30px;
+}
+
+.f-size-50 {
+    font-size: 50px;
+}
+
+/* BORDER */
+
+.b-white {
+    border: 1px solid white;
 }
